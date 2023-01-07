@@ -12,10 +12,10 @@ simulated function SpawnEffects()
 	
 simulated function SpawnImpactEffects(rotator HitRot, vector EffectLoc)
 {
-	Spawn(class'ShockImpactFlareB',,, EffectLoc, HitRot);
-	Spawn(class'ShockImpactRingB',,, EffectLoc, HitRot);
-	Spawn(class'ShockImpactScorch',,, EffectLoc, Rotator(-HitNormal));
-	Spawn(class'ShockExplosionCoreB',,, EffectLoc, HitRot);
+	Spawn(class'MagicWandImpactFlare',,, EffectLoc, HitRot);
+	Spawn(class'MagicWandImpactRing',,, EffectLoc, HitRot);
+	Spawn(class'MagicWandImpactScorch',,, EffectLoc, Rotator(-HitNormal));
+	Spawn(class'MagicWandExplosionCoreB',,, EffectLoc, HitRot);
 }
 
 defaultproperties

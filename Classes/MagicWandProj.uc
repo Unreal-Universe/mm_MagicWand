@@ -77,7 +77,7 @@ defaultproperties
      Speed=1500.000000
      MaxSpeed=4000.000000
      Damage=80.000000
-     MyDamageType=Class'XWeapons.DamTypeLinkPlasma'
+     MyDamageType=Class'tk_MagicWand.DamTypeMagicWand'
      ExplosionDecal=Class'XEffects.LinkBoltScorch'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence

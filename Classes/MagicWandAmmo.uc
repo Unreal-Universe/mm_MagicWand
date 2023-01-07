@@ -5,5 +5,5 @@ defaultproperties
      MaxAmmo=250
      InitialAmount=200
      PickupClass=None
-     ItemName="Magic Ammo"
+     ItemName="Magic Wand Ammo"
 }

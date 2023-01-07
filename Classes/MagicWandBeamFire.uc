@@ -68,7 +68,7 @@ function SpawnBeamEffect(Vector Start, Rotator Dir, Vector HitLocation, Vector H
 defaultproperties
 {
      BeamEffectClass=Class'tk_MagicWand.MagicWandBeamEffect'
-     DamageType=Class'XWeapons.DamTypeSuperShockBeam'
+     DamageType=Class'tk_MagicWand.DamTypeMagicWand'
      DamageMin=90
      DamageMax=90
      Momentum=100000.000000

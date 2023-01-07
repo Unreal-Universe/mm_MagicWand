@@ -1,13 +1,9 @@
-class MagicWandPickup extends UTWeaponPickup;
+class MagicWandPickup extends ShockRiflePickup;
 
 defaultproperties
 {
-     MaxDesireability=0.650000
-     InventoryType=Class'tk_MagicWand.MagicWandWeapon'
-     PickupMessage="You got the Magic Wand"
-     PickupSound=Sound'PickupSounds.ShockRiflePickup'
-     PickupForce="ShockRiflePickup"
-     DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'WeaponStaticMesh.ShockRiflePickup'
-     DrawScale=0.500000
+    InventoryType=class'tk_MagicWand.MagicWand'
+    PickupMessage="You got the Magic Wand"
+    Skins(0)=Texture'tk_MagicWand.MagicWand.MagicWandTex'
+    Skins(1)=FinalBlend'UT2004Weapons.Shaders.BlueShockFinal'
 }

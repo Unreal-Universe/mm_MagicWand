@@ -1,4 +1,4 @@
-class MagicWandWeapon extends tk_Weapon
+class MagicWand extends tk_Weapon
 	config(TKWeaponsClient);
 
 #exec obj load file="Resources/rs_MagicWand_rc.u" package="tk_MagicWand"
