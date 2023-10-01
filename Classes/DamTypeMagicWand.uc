@@ -3,7 +3,7 @@ class DamTypeMagicWand extends WeaponDamageType
 
 defaultproperties
 {
-     WeaponClass=Class'tk_MagicWand.MagicWand'
+     WeaponClass=Class'mm_MagicWand.MagicWand'
      DeathString="%k has unleashed the Magic Wand on %o."
      FemaleSuicide="%o could not control the Magic Wand."
      MaleSuicide="%o could not control the Magic Wand."

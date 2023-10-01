@@ -50,7 +50,7 @@ function ServerPlayFiring()
 defaultproperties
 {
     BarrelRotationsPerSec=0.70
-    FiringSound=Sound'tk_MagicWand.MagicWand.WandMiniAltFire'
+    FiringSound=Sound'mm_MagicWand.MagicWand.WandMiniAltFire'
     WindUpTime=0.15
     FiringForce="minialtfireb"
     PreFireTime=0.15

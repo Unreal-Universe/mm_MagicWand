@@ -77,7 +77,7 @@ defaultproperties
      Speed=1500.000000
      MaxSpeed=4000.000000
      Damage=80.000000
-     MyDamageType=Class'tk_MagicWand.DamTypeMagicWand'
+     MyDamageType=Class'mm_MagicWand.DamTypeMagicWand'
      ExplosionDecal=Class'XEffects.LinkBoltScorch'
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence
@@ -91,7 +91,7 @@ defaultproperties
      LifeSpan=3.000000
      DrawScale3D=(X=3.295000,Y=1.530000,Z=1.530000)
      PrePivot=(X=10.000000)
-     Skins(0)=FinalBlend'tk_MagicWand.MagicWand.MWPlasmaFB'
+     Skins(0)=FinalBlend'mm_MagicWand.MagicWand.MWPlasmaFB'
      AmbientGlow=217
      Style=STY_Additive
      SoundVolume=255

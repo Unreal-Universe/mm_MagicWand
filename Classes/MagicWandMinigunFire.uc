@@ -49,12 +49,12 @@ function SpawnBeamEffect(Vector Start, Rotator Dir, Vector HitLocation, Vector H
 
 defaultproperties
 {
-     BeamEffectClass=Class'tk_MagicWand.MagicWandBeamEffect'
+     BeamEffectClass=Class'mm_MagicWand.MagicWandBeamEffect'
      BarrelRotationsPerSec=2.000000
      RoundsPerRotation=3
-     FiringSound=Sound'tk_MagicWand.MagicWand.WandMiniFire'
+     FiringSound=Sound'mm_MagicWand.MagicWand.WandMiniFire'
      WindUpTime=0.250000
-     DamageType=Class'tk_MagicWand.DamTypeMagicWandMinigun'
+     DamageType=Class'mm_MagicWand.DamTypeMagicWandMinigun'
      DamageMin=2000
      DamageMax=2000
      Momentum=100000.000000
@@ -62,7 +62,7 @@ defaultproperties
      PreFireTime=0.250000
      FireLoopAnimRate=1.000000
      FireRate=1.100000
-     AmmoClass=Class'tk_MagicWand.MagicWandMinigunAmmo'
+     AmmoClass=Class'mm_MagicWand.MagicWandMinigunAmmo'
      AmmoPerFire=1
      Spread=0.150000
 }

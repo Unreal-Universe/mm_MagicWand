@@ -1,7 +1,7 @@
 class MagicWand extends tk_Weapon
 	config(TKWeaponsClient);
 
-#exec obj load file="Resources/rs_MagicWand_rc.u" package="tk_MagicWand"
+#exec obj load file="Resources/rs_MagicWand_rc.u" package="mm_MagicWand"
 
 var ShockProjectile ComboTarget;
 var bool bRegisterTarget;
@@ -203,11 +203,11 @@ function byte BestMode()
 defaultproperties
 {
      EffectColor=(B=222,A=128)
-     FireModeClass(0)=Class'tk_MagicWand.MagicWandBeamFire'
-     FireModeClass(1)=Class'tk_MagicWand.MagicWandAltFire'
+     FireModeClass(0)=Class'mm_MagicWand.MagicWandBeamFire'
+     FireModeClass(1)=Class'mm_MagicWand.MagicWandAltFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
-     SelectSound=Sound'tk_MagicWand.MagicWand.MWLoad'
+     SelectSound=Sound'mm_MagicWand.MagicWand.MWLoad'
      SelectForce="SwitchToShockRifle"
      AIRating=0.630000
      CurrentRating=0.630000
@@ -232,11 +232,11 @@ defaultproperties
      CustomCrossHairScale=1.333000
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Cross2"
      InventoryGroup=4
-     PickupClass=Class'tk_MagicWand.MagicWandPickup'
+     PickupClass=Class'mm_MagicWand.MagicWandPickup'
      PlayerViewOffset=(X=4.000000,Y=8.000000,Z=-2.000000)
      PlayerViewPivot=(Pitch=-1000)
      BobDamping=1.800000
-     AttachmentClass=Class'tk_MagicWand.MagicAttachment'
+     AttachmentClass=Class'mm_MagicWand.MagicAttachment'
      IconMaterial=Texture'HUDContent.Generic.HUD'
      IconCoords=(X1=250,Y1=110,X2=330,Y2=145)
      ItemName="Magic Wand"
@@ -247,7 +247,7 @@ defaultproperties
      LightBrightness=255.000000
      LightRadius=4.000000
      LightPeriod=3
-     Mesh=SkeletalMesh'tk_MagicWand.MagicWand.MagicWandMesh'
+     Mesh=SkeletalMesh'mm_MagicWand.MagicWand.MagicWandMesh'
      DrawScale=0.700000
      HighDetailOverlay=Combiner'UT2004Weapons.WeaponSpecMap2'
 }

@@ -3,12 +3,12 @@ class MagicWandMinigun extends tK_Minigun
 
 defaultproperties
 {
-     FireModeClass(0)=Class'tk_MagicWand.MagicWandMinigunFire'
-     FireModeClass(1)=Class'tk_MagicWand.MagicWandMinigunAltFire' 
+     FireModeClass(0)=Class'mm_MagicWand.MagicWandMinigunFire'
+     FireModeClass(1)=Class'mm_MagicWand.MagicWandMinigunAltFire' 
      AIRating=1.000000
      bCanThrow=False
-     PickupClass=Class'tk_MagicWand.MagicWandMinigunPickup'
-     AttachmentClass=Class'tk_MagicWand.MagicWandMinigunAttachment'
+     PickupClass=Class'mm_MagicWand.MagicWandMinigunPickup'
+     AttachmentClass=Class'mm_MagicWand.MagicWandMinigunAttachment'
      ItemName="Magic Wand Minigun"
-     Skins(0)=Texture'tk_MagicWand.MagicWand.WandMinigun'
+     Skins(0)=Texture'mm_MagicWand.MagicWand.WandMinigun'
 }

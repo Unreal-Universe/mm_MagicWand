@@ -23,6 +23,6 @@ defaultproperties
      mRandTextures=True
      CullDistance=10000.000000
      Physics=PHYS_Trailer
-     Skins(0)=Texture'tk_MagicWand.MagicWand.MWTrail'
+     Skins(0)=Texture'mm_MagicWand.MagicWand.MWTrail'
      Style=STY_Additive
 }

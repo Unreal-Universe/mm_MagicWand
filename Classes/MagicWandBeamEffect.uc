@@ -20,9 +20,9 @@ simulated function SpawnImpactEffects(rotator HitRot, vector EffectLoc)
 
 defaultproperties
 {
-     CoilClass=Class'tk_MagicWand.MagicWandCoilB'
+     CoilClass=Class'mm_MagicWand.MagicWandCoilB'
      MuzFlashClass=Class'XEffects.ShockMuzFlashB'
      MuzFlash3Class=Class'XEffects.ShockMuzFlashB3rd'
      bNetTemporary=False
-     Skins(0)=ColorModifier'tk_MagicWand.MagicWand.MWBeam'
+     Skins(0)=ColorModifier'mm_MagicWand.MagicWand.MWBeam'
 }
